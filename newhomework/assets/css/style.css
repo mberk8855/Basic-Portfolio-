@@ -87,7 +87,7 @@ a {
     background-color: #666666;
     color: white;
     height: 57px;
-    margin-top: 10px;
+    margin-top: 250px;
     position: fixed;
     bottom: 0px;
     width: 100%;
@@ -106,7 +106,6 @@ a {
 }
 
 
-
 input[type=text], select, textarea {
     width: 92%;
     padding: 12px;
@@ -118,4 +117,23 @@ input[type=text], select, textarea {
     resize: vertical;
   }
 
-  
+  /*portfolio page*/
+.work {
+	position: relative;
+	margin: 20px 0 25px;
+	width: 100%;
+}
+
+.placeholder-img {
+	opacity: .7;
+}
+
+.caption h3 {
+	position: absolute;
+	bottom: 25px;
+	padding: 10px;
+	text-align: center;
+	color:#fff;
+	background: #2c3e50;
+	opacity:.8;
+}
